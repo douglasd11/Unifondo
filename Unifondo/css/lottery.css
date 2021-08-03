@@ -1,0 +1,142 @@
+body{
+    background-color: #acd8eb;;
+}
+
+main{
+    display: flex;
+    height: auto;
+    min-height: 70vh;
+}
+
+.cont-principal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 8rem;
+}
+
+.cont-principal form{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cont-principal form h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.cont-principal form p{
+    margin-bottom: 10px;
+}
+
+.cont-principal form input{
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid rgba(36, 36, 36, 0.493);
+}
+
+.cont-principal form .cont-date{
+    width: 100%;
+}
+
+#input-date{
+    margin-left: 10px;
+    width: 50%;
+}
+
+.cont-principal form label{
+    margin-bottom: 10px;
+}
+
+.cont-principal form textarea{
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    min-height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(36, 36, 36, 0.493);
+}
+
+.cont-principal form button{
+    margin-bottom: 25px;
+    margin-top: 15px;
+    padding: 5px 10px;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.cont-principal form button:hover{
+    background-color: rgb(22, 188, 253);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(22, 188, 253);
+    transition: .25s;
+}
+
+/**********************************/
+
+.cont-secundario{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 3rem;
+    padding-bottom: 1rem;
+    width: 20%;
+}
+
+.cont-secundario a{
+    width: 80%;
+    text-align: center;
+    padding: .6rem 1rem;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.cont-secundario a:hover{
+    background-color: rgb(22, 188, 253);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(22, 188, 253);
+    transition: .25s;
+}
+
+
+/************************/
+
+footer{
+    background-color: white;
+}
+
+footer .derechos{
+    color: black;
+}
+
+footer .contacto i{
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+footer .contacto i:hover{
+    background-color: rgb(22, 188, 253);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(22, 188, 253);
+    transition: .25s;
+}

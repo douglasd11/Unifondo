@@ -1,0 +1,159 @@
+body{
+    background-color: #acd8eb;;
+}
+
+main{
+    display: flex;
+}
+
+.cont-principal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cont-principal .contenedor{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cont-principal .contenedor h2{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.cont-principal .contenedor p{
+    margin-bottom: 10px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 3rem;
+    margin-top: 2rem;
+    background-color: #1fa3b4;
+    overflow: auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    width: 340px;
+    padding: 20px;
+    padding-top: 0;
+    text-align: justify;
+    border-radius: 20px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,139,1) 100%);
+}
+
+.close-lot{
+    background: rgb(94,94,94);
+    background: linear-gradient(0deg, rgba(94,94,94,1) 0%, rgba(65,63,63,0.7595413165266106) 44%, rgba(45,253,139,1) 100%);
+}
+
+.card .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4px;
+    max-height: 200px;
+}
+
+.card .title-sorteo{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.card .cont-card{
+    width: 100%;
+    margin-bottom: .5rem;
+    overflow: auto;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.card img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#btn-finalizar{
+    width: 70%;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(0, 247, 255);
+    color: white;
+    text-align: center;
+}
+
+/**********************************/
+
+.cont-secundario{
+    position: absolute;
+    top: 250px;
+    right: 50px;
+}
+
+.cont-secundario a{
+    width: 100%;
+    text-align: center;
+    padding: .6rem 1rem;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.cont-secundario a:hover{
+    background-color: rgb(22, 188, 253);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(22, 188, 253);
+    transition: .25s;
+}
+
+
+/************************/
+
+footer{
+    background-color: white;
+}
+
+footer .derechos{
+    color: black;
+}
+
+footer .contacto i{
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+footer .contacto i:hover{
+    background-color: rgb(22, 188, 253);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(22, 188, 253);
+    transition: .25s;
+}

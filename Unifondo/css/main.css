@@ -1,0 +1,310 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all .25s;
+}
+img[alt="www.000webhost.com"]{
+	display: none;
+}
+header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 3rem;
+    align-items: center;
+}
+
+nav .cont-logo {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+    padding-right: 15px;
+}
+
+nav .cont-logo h1{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+
+nav .cont-logo img{
+    width: auto;
+    height: 80px;
+    margin-right: 15px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    display: flex;
+    list-style: none;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav li:hover{
+    background-color: rgba(255, 255, 255, 0.911);
+    border-radius: 10px;
+    transition: .25s;
+}
+
+nav li:hover > i{
+    color: rgb(22, 188, 253);
+    transition: .25s;
+}
+
+nav i{
+    width: 180px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#btn-crear{
+    background-color: rgba(22, 188, 253, 0.575);
+    border-radius: 8px;
+}
+
+#btn-crear:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    transition: .25s;
+}
+
+/********************/
+
+nav .cont-user{
+    display: flex;
+    align-items: center;
+}
+
+
+nav .cont-user .name{
+    margin-right: 2rem;
+}
+
+nav .cont-user .name h2{
+    font-size: 2rem;
+}
+
+nav .cont-user .name p{
+    margin-top: -10px;
+    margin-left: 5px;
+    font-size: .8rem;
+}
+
+
+nav .cont-user img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+nav .cont-user .close{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+nav .cont-user a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 25px;
+    color: black;
+}
+
+/********************/
+
+div.show-ventana{
+
+    left: 0;
+    top: 0;
+    transition: .35s;
+    opacity: 1;
+}
+
+
+
+.cont-contact{
+    position: fixed; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.885);
+    width: 100vw;
+    height: 100vh;
+
+    left: 100vw;
+    opacity: 0;
+}
+
+.cont-contact .marco{
+    display: flex;
+    
+    background-color: rgb(223, 223, 223);
+    width: 60%;
+    height: 80%;
+    /*border: 1px solid black;*/
+    box-shadow: 4px 1px 20px rgba(0, 0, 0, 0.487);
+}
+
+.cont-contact .cont-head{
+    display: flex;
+    justify-content: flex-end;
+    height: 4rem;
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.cont-contact .cont-head button{
+    background-color: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.cont-contact .cont-head button:hover{
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+
+.cont-contact .cont-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(62, 178, 255);
+}
+
+.cont-contact .cont-back{
+    width: 50%;
+    height: 100%;
+    background-image: url("../img/foto4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cont-contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    max-width: 350px;
+    height: 100%;
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+.cont-contact form h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.cont-contact form input{
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(36, 36, 36, 0.493);
+}
+
+.cont-contact form textarea{
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(36, 36, 36, 0.493);
+}
+
+.cont-contact form button{
+    margin-bottom: 25px;
+    margin-top: 15px;
+    padding: 5px 10px;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cont-contact form .data-icon p{
+    font-size: .8rem;
+}
+
+
+/********************/
+
+
+footer {
+    display: flex;
+    background-color: rgb(22, 188, 253);
+    height: 15vh;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+footer .derechos{
+    display: flex;
+    height: 100%;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+
+footer .contacto{
+    display: flex;
+    height: 100%;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .contacto i{
+    background-color: rgb(22, 188, 253);
+    width: 180px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+footer .contacto i:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(22, 188, 253);
+    border: 1px solid rgb(22, 188, 253);
+    transition: .25s;
+}
